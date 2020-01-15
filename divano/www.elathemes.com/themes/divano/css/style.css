@@ -1,0 +1,45 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#header .short {
+  border-bottom: 1px solid #a19a9a;
+}
+
+#header .short .sag img {
+  width: 28%;
+  border-right: 1px solid #a19a9a;
+}
+
+#header .short .sag span {
+  padding: 15px;
+  cursor: pointer;
+  border-right: 1px solid #a19a9a;
+}
+
+#header .short .sol i {
+  padding: 15px;
+  cursor: pointer;
+  border-left: 1px solid #a19a9a;
+}
+
+#nav .menu ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#nav .menu ul li {
+  padding: 15px;
+  font-weight: 700;
+}
+
+#nav .sp span {
+  font-weight: 700;
+  padding: 10px;
+}
+/*# sourceMappingURL=style.css.map */

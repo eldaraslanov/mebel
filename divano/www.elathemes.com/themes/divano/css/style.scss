@@ -1,0 +1,46 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+#header{
+    .short{
+        border-bottom: 1px solid rgb(161, 154, 154);
+        .sag{
+            img{
+                width: 28%;
+                border-right: 1px solid rgb(161, 154, 154);
+            }
+            span{
+                padding: 15px;
+                cursor: pointer;
+                border-right: 1px solid rgb(161, 154, 154);
+            }
+        }
+        .sol{
+            i{
+                padding: 15px;
+                cursor: pointer;
+                border-left: 1px solid rgb(161, 154, 154);
+            }
+        }
+    }
+}
+#nav{
+    .menu{
+        ul{
+            list-style: none;
+            display: flex;
+            li{
+                padding: 15px;
+                font-weight: 700;
+            }
+        }
+    }
+    .sp{
+        span{
+            font-weight: 700;
+            padding: 10px;
+        }
+    }
+}
